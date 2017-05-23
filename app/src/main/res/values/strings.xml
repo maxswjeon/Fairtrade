@@ -1,0 +1,15 @@
+<resources>
+	<string name="app_name">FairTrade</string>
+	<string name="scan">Scan</string>
+	<string name="background_image">Background Image</string>
+	<string name="history">History</string>
+	<string name="ad_id_result">ca-app-pub-4777473171625834/5526993708</string>
+	<string name="ad_id_history">ca-app-pub-4777473171625834/5247792102</string>
+	<string name="loading_product_name">Loading Product Name</string>
+	<string name="image">Image</string>
+	<string name="code">Code</string>
+	<string name="scan_from_code">Scan From Code</string>
+	<string name="loading">Loading...</string>
+	<string name="ok">OK</string>
+	<string name="next">Next</string>
+</resources>

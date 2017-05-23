@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="xyz.codenlife.fairtrade.activities.MainActivity">
+
+
+	<ImageView
+		android:id="@+id/main_image_background"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginBottom="0dp"
+		android:layout_marginLeft="0dp"
+		android:layout_marginRight="0dp"
+		android:layout_marginTop="0dp"
+		android:contentDescription="@string/background_image"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@color/colorPrimary"
+		app:layout_constraintHorizontal_bias="1.0"
+		app:layout_constraintVertical_bias="1.0"/>
+
+	<Button
+		android:id="@+id/button_scan"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/scan"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="8dp"
+		app:layout_constraintBottom_toBottomOf="@+id/main_image_background"
+		android:layout_marginBottom="8dp"
+		app:layout_constraintRight_toLeftOf="@+id/guideline"
+		android:layout_marginRight="8dp"
+		android:layout_marginEnd="8dp"/>
+
+	<Button
+		android:id="@+id/button_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/image"
+		android:layout_marginLeft="8dp"
+		android:layout_marginStart="8dp"
+		app:layout_constraintLeft_toLeftOf="@+id/guideline"
+		app:layout_constraintTop_toTopOf="parent"
+		android:layout_marginTop="8dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="8dp"/>
+
+	<Button
+		android:id="@+id/button_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="8dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/code"
+		app:layout_constraintRight_toLeftOf="@+id/guideline"
+		app:layout_constraintTop_toBottomOf="@+id/button_scan"/>
+
+	<Button
+		android:id="@+id/button_history"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/history"
+		android:layout_marginTop="8dp"
+		app:layout_constraintTop_toBottomOf="@+id/button_image"
+		android:layout_marginLeft="8dp"
+		android:layout_marginStart="8dp"
+		app:layout_constraintLeft_toLeftOf="@+id/guideline"/>
+
+
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="50dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:text="@string/app_name"
+		android:textSize="42sp"
+		android:textStyle="bold"
+		android:textColor="@android:color/background_light"
+		app:layout_constraintBottom_toTopOf="@+id/button_scan"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"/>
+
+	<android.support.constraint.Guideline
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/guideline"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.5"/>
+
+	<ImageView
+		android:id="@+id/image_info"
+		android:layout_width="24dp"
+		android:layout_height="24dp"
+		android:layout_marginBottom="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginEnd="8dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:srcCompat="@drawable/ic_info"/>
+
+	<ImageView
+
+		android:id="@+id/image_about"
+		android:layout_width="24dp"
+		android:layout_height="24dp"
+		app:srcCompat="@drawable/ic_help"
+		app:layout_constraintRight_toLeftOf="@+id/image_info"
+		android:layout_marginRight="8dp"
+		android:layout_marginEnd="8dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		android:layout_marginBottom="8dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

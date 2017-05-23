@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "192939918630",
+    "firebase_url": "https://fairtrade-f4ff9.firebaseio.com",
+    "project_id": "fairtrade-f4ff9",
+    "storage_bucket": "fairtrade-f4ff9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192939918630:android:e0bea5fae3d7fb36",
+        "android_client_info": {
+          "package_name": "xyz.codenlife.fairtrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192939918630-me7o7gt02902a1hpfstmbffs7nilub76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.codenlife.fairtrade",
+            "certificate_hash": "a5d8023409763e1e64ba690fd0f8d44aa9bf6c2d"
+          }
+        },
+        {
+          "client_id": "192939918630-4135lr3s7r4vk9drek3rm135d8kv991a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU1Rzy4aZKthMZp9GYvzaNdQU6Id1g6n8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
