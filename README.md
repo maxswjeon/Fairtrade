@@ -1,4 +1,4 @@
-# fairtrade
+# Fairtrade
 Fairtrade App project
 by Do Seunghwan (도승환)
    Park Hwon    (박훤)
